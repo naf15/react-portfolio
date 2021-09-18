@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://myusername.github.io/react-portfolio"
+    "homepage": "https://naf15.github.io/react-portfolio"
   },
   "eslintConfig": {
     "extends": [
