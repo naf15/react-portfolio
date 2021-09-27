@@ -7,7 +7,7 @@ const Header = () => {
                 <li><a href="#about-me">About Me</a></li>
                 <li>
                     <a target="_blank" href="https://github.com/naf15?tab=repositories"
-                    >Github</a>                   >
+                    >Github</a>                   
                 </li>
                 <li>
                     <a href="#portfolio" href="https://github.com/naf15">Portfolio</a>
