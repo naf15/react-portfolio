@@ -1,6 +1,6 @@
 const ContactMe = () => {
     return(
-        <footer>
+        <footer id="contact-form">
             <h2 id="contact-me">Contact Me</h2>
             <form class="contact-form">
                 <label>Name: </label>

@@ -1,3 +1,8 @@
+import project1 from '../assets/images/STKR.jpg'
+import project2 from '../assets/images/Code_Quiz.jpg'
+import project3 from '../assets/images/README_Gen.jpg'
+import project4 from '../assets/images/Note_Taker.jpg'
+
 const Portfolio = () => {
     return(
         <article id="portfolio">
@@ -9,7 +14,7 @@ const Portfolio = () => {
           href="https://naf15.github.io/STKR/"
         >
           <div>
-            <img class="img" src="./assets/images/STKR.jpg" />
+            <img class="img" src={project1} />
             <h2 class="portfolio-card-title">STKR</h2>
           </div>
         </a>
@@ -21,7 +26,7 @@ const Portfolio = () => {
             href="https://naf15.github.io/code-quiz/"
           >
             <div class="portfolio-card">
-              <img class="img" src="./assets/images/Code_Quiz.jpg" />
+              <img class="img" src={project2} />
               <h3 class="portfolio-card-title">Code Quiz</h3>
             </div>
           </a>
@@ -31,7 +36,7 @@ const Portfolio = () => {
             href="https://github.com/naf15/professional-readme-generator"
           >
             <div class="portfolio-card">
-              <img class="img" src="./assets/images/README_Gen.jpg" />
+              <img class="img" src={project3} />
               <h3 class="portfolio-card-title">README Generator</h3>
             </div>
           </a>
@@ -41,7 +46,7 @@ const Portfolio = () => {
             href="https://note-taker66.herokuapp.com/"
           >
             <div class="portfolio-card">
-              <img class="img" src="./assets/images/Note_Taker.jpg" />
+              <img class="img" src={project4} />
               <h3 class="portfolio-card-title">Note Taker</h3>
             </div>
           </a>
